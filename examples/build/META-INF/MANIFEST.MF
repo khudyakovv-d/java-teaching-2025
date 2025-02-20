@@ -1,0 +1,1 @@
+Main-Class: ru.nsu.ccfit.khudyakov.proj.lesson1.Main
