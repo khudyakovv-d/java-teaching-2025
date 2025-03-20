@@ -1,4 +1,4 @@
-package ru.nsu.ccfit.khudyakov.proj.lesson2;
+package ru.nsu.ccfit.khudyakov.lessons.lesson2;
 
 import java.util.Objects;
 

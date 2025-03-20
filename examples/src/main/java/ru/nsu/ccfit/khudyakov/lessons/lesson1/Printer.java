@@ -1,4 +1,4 @@
-package ru.nsu.ccfit.khudyakov.proj.lesson1;
+package ru.nsu.ccfit.khudyakov.lessons.lesson1;
 
 public class Printer {
 
