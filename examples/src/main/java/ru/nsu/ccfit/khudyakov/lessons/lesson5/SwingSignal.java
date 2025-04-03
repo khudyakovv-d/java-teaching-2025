@@ -21,8 +21,6 @@ public class SwingSignal extends JPanel implements AbstractSignal {
         this.setBackground(Color.BLACK);
         graphics.setColor(curColor);
         graphics.fillOval(0, 0, size, size);
-        graphics.setColor(Color.BLACK);
-        graphics.drawOval(0, 0, size, size);
     }
 
     @Override

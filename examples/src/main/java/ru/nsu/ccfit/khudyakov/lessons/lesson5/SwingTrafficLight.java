@@ -20,7 +20,7 @@ public class SwingTrafficLight implements AbstractTrafficLight, Observer<SignalC
             signals.put(SignalColor.RED, new SwingSignal(SIGNAL_SIZE, Color.RED));
             signals.put(SignalColor.YELLOW, new SwingSignal(SIGNAL_SIZE, Color.YELLOW));
             signals.put(SignalColor.GREEN, new SwingSignal(SIGNAL_SIZE, Color.GREEN));
-            signals.forEach((k, v) -> frame.getContentPane().add(v));
+            signals.forEach((k, v) -> frame.add(v));
             signals.get(SignalColor.RED).on();
 
             JButton switcher = new JButton();

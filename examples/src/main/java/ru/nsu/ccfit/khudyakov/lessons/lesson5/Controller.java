@@ -6,8 +6,11 @@ public class Controller {
 
     public Controller() {
         this.model = new Model();
-        SwingTrafficLight trafficLight = new SwingTrafficLight(this);
-        this.model.addObserver(trafficLight);
+        this.model.addObserver(new SwingTrafficLight(this));
+        this.model.addObserver(new SwingTrafficLight(this));
+        this.model.addObserver(new SwingTrafficLight(this));
+        this.model.addObserver(new SwingTrafficLight(this));
+        this.model.addObserver(new SwingTrafficLight(this));
     }
 
     public void update() {
