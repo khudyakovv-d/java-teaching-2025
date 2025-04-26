@@ -27,6 +27,7 @@ public class SwingSignal extends JPanel implements AbstractSignal {
     public void off() {
         curColor = Color.BLACK;
         repaint();
+        //SwingUtilities.invokeLater(this::repaint);
     }
 
     @Override
